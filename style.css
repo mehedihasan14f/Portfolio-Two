@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: #F6F5F5;
+}
+
+.container {
+    width: 1000px;
+    height: 200%;
+    background: #fefe;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;;
+    overflow: hidden;
+}
+.title{
+    width: 50%;
+    float: left;
+}
+.title h2 {
+    font-size: 30px;
+    padding: 33px 0;
+}
+.title span {
+    color: green;
+}
+
+.menu{
+    width: 50%;
+    overflow: hidden;
+}
+.menu ul {}
+.menu ul li {
+    float: left;
+    margin-left: 36px;
+    padding: 33px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu ul li :hover {
+    color: green;
+}
+.menu ul li a {
+    text-decoration: none;
+    
+}
+
+.logo-title {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.logo {
+    width: 50%;
+    float: left;
+}
+.title {
+    float: left;
+}
+.title h1 {
+    font-size: 30px;
+    color: #2c3e50;
+    text-align: center;
+    margin: 25px 0px;
+}
+.title p {
+    text-align: center;
+    color: #2c3e50;
+}
+.title ul {
+    overflow: hidden;
+    margin: 10px 0;
+} 
+.title ul li {
+    float: left;
+    display: inline-block;
+} 
+.title ul li a {
+    color: #2c3e50;
+    padding: 5px;
+} 
+
+.details {}
+.text {
+    width: 50%;
+    float: left;
+}
+.text h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.text h3 span {
+    color: green;
+}
+.text h3 p {
+    line-height: 20px;
+}
+.btn {
+    background-color: #c0392b;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.information {
+    width: 50%;
+    float: left;
+}
+.information ul{
+    text-align: center;
+}
+.information ul li {
+    line-height: 28px;
+}
+.information ul li span {
+    color: green;
+}
